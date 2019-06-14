@@ -15,4 +15,4 @@ before_publish:
 
 publish:
   - vsce package
-  - vsce publish -p $TOKEN_VSCODE
+  - vsce publish -p TOKEN_VSCODE
