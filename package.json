@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "displayName": "React Snippets",
   "publisher": "iamgbayer",
-  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#fff",
     "theme": "dark"

@@ -13,7 +13,7 @@
       "  )",
       "}"
     ],
-    "description": "Create a functional component"
+    "description": "Create a functional component default exported"
   },
   "functionalComponentWithPropTypes": {
     "prefix": "fcpt",
@@ -34,12 +34,12 @@
       "  ",
       "}"
     ],
-    "description": "Create a functional component with PropTypes"
+    "description": "Create a functional component with PropTypes default exported"
   },
   "styledComponent": {
     "prefix": "sc",
     "body": ["const ${1} = styled.${2}`", "  ${3}", "`"],
-    "description": "Create a Styled component"
+    "description": "Create a styled component not exported"
   },
 
   "importReact": {
