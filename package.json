@@ -1,0 +1,43 @@
+{
+  "name": "ReactSnippets",
+  "description": "React Snipperts for VSCode.",
+  "version": "1.0.0",
+  "displayName": "React Snippets",
+  "publisher": "iamgbayer",
+  "icon": "images/logo.png",
+  "galleryBanner": {
+    "color": "#fff",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamgbayer/react-snippets"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
