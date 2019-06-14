@@ -68,5 +68,86 @@
     "prefix": "uf",
     "body": ["useEffect(() => {", "  $0", "}, [])"],
     "description": "Create a useEffect hook"
+  },
+
+  "propTypeArray": {
+    "prefix": "pta",
+    "body": "PropTypes.array,",
+    "description": "Create a propType to array"
+  },
+  "propTypeArrayRequired": {
+    "prefix": "ptar",
+    "body": "PropTypes.array.isRequired,",
+    "description": "Create a required propType to array"
+  },
+  "propTypeBool": {
+    "prefix": "ptb",
+    "body": "PropTypes.bool,",
+    "description": "Create a propType to boolean"
+  },
+  "propTypeBoolRequired": {
+    "prefix": "ptbr",
+    "body": "PropTypes.bool.isRequired,",
+    "description": "Create a required propType to boolean"
+  },
+  "propTypeFunc": {
+    "prefix": "ptf",
+    "body": "PropTypes.func,",
+    "description": "Create a propType to function"
+  },
+  "propTypeFuncRequired": {
+    "prefix": "ptfr",
+    "body": "PropTypes.func.isRequired,",
+    "description": "Create a required propType to function"
+  },
+  "propTypeNumber": {
+    "prefix": "ptn",
+    "body": "PropTypes.number,",
+    "description": "Create a propType to number"
+  },
+  "propTypeNumberRequired": {
+    "prefix": "ptnr",
+    "body": "PropTypes.number.isRequired,",
+    "description": "Create required propType to number"
+  },
+  "propTypeObject": {
+    "prefix": "pto",
+    "body": "PropTypes.object,",
+    "description": "Create a propType to object"
+  },
+  "propTypeObjectRequired": {
+    "prefix": "ptor",
+    "body": "PropTypes.object.isRequired,",
+    "description": "Create a required propType to object"
+  },
+  "propTypeString": {
+    "prefix": "pts",
+    "body": "PropTypes.string,",
+    "description": "Create a propType to string"
+  },
+  "propTypeStringRequired": {
+    "prefix": "ptsr",
+    "body": "PropTypes.string.isRequired,",
+    "description": "Create a required propType to string"
+  },
+  "propTypeNode": {
+    "prefix": "ptnd",
+    "body": "PropTypes.node,",
+    "description": "Create a propType to node"
+  },
+  "propTypeNodeRequired": {
+    "prefix": "ptndr",
+    "body": "PropTypes.node.isRequired,",
+    "description": "Create a required propType to node"
+  },
+  "propTypeInstanceOf": {
+    "prefix": "pti",
+    "body": "PropTypes.instanceOf($0),",
+    "description": "Create a propType to specific instance"
+  },
+  "propTypeInstanceOfRequired": {
+    "prefix": "ptir",
+    "body": "PropTypes.instanceOf($0).isRequired,",
+    "description": "Create a required propType to specific instance"
   }
 }
