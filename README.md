@@ -31,4 +31,4 @@ Below is the list with all available Snippets and commands for each. The ** ⇥ 
 | `ptrb →` | Create a required propType to boolean                                 |
 |  `ptb →` | Create a propType to boolean                                          |
 
-That's it for while, for more suggestions, create a issue, is very appreciate :heart:
+That's it for while, for more suggestions create a issue, is very appreciate :heart:
